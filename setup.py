@@ -5,10 +5,16 @@ from distutils.core import setup
 setup(
     name='nodebox-color',
     version='1.9.4.6-f2k',
-    description='Color classes for python, from the Nodebox project v1.0-series source.',
+    description='Color classes for python',
+    long_description='Color classes for python, from the Nodebox project v1.0-series source.',
     author='Alexander Bohn',
     author_email='fish2000@gmail.com',
     url='http://github.com/fish2000/nodebox-color',
+    download_url='https://github.com/fish2000/nodebox-color/archives/master',
+    zip_safe=False,
+    py_modules = [
+        'colors',
+    ],
     packages=[
         'colors',
     ],
@@ -21,6 +27,7 @@ setup(
             'context/*.txt',
         ],
     },
+    include_package_data=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
