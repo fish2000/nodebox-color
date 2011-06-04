@@ -3,7 +3,7 @@
 # Copyright (c) 2007 Tom De Smedt.
 # See LICENSE.txt for details.
 
-__author__	  = "Tom De Smedt, Frederik De Bleser"
+__author__	  = "Tom De Smedt, Frederik De Bleser, Alexander Bohn"
 __version__	  = "1.9.4.9"
 __copyright__ = "Copyright (c) 2007 Tom De Smedt"
 __license__	  = "GPL"
