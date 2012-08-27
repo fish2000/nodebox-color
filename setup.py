@@ -11,7 +11,6 @@ setup(
     author_email='fish2000@gmail.com',
     url='http://github.com/fish2000/nodebox-color',
     download_url='https://github.com/fish2000/nodebox-color/archives/master',
-    zip_safe=False,
     py_modules = [
         'colors',
     ],
@@ -27,13 +26,10 @@ setup(
             'context/*.txt',
         ],
     },
-    include_package_data=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
-        'Framework :: Nodebox',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: GNU Public License v2',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Topic :: Utilities'
