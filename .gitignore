@@ -13,3 +13,7 @@
 .dropbox
 
 Icon*
+
+dist/
+sdist/
+build/
