@@ -471,6 +471,9 @@ class BaseColor:
         return "%s(%.3f, %.3f, %.3f, %.3f)" % (self.__class__.__name__, 
             self.red, self.green, self.blue, self.alpha)
 
+    def __hash__(self):
+        return hash(repr(self))
+
     def copy(self):
         return BaseColor(self)
 
